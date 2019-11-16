@@ -2,32 +2,25 @@
 
 ## Introduction.
 
-This is a project for the Udacity Front-End Web Developer Nanodegree program.
+This is a project for the Udacity Front-End Web Developer
+Nanodegree program. The objective of the project is to 
+take an app that is not working very well and make it fully
+responsive and accessible to users for all type of devices. 
+App should also be able to work when network connection
+is down or poor.
 
 
 ## Running the App
 
-1. Clone the GitHub repository localy.
+* Using Python HTTP server
+In the project folder, start up a simple HTTP server to serve up the site files on your local computer. Python has some simple tools to do this, and you don't even need to know Python. For most people, it's already installed on your computer.
 
-2. Go into the repository folder and switch comments in code of
+1- Using Terminal enter into project directory
+2- In a terminal, check the version of Python you have: `python -V`.
+	- 2.a If you have Python 2.x, spin up the server with `python -m SimpleHTTPServer 3000` (or some other port, if port 8000 is already in use.)
+	- 2.b For Python 3.x, you can use `python3 -m http.server 3000`.
 
-	1. js/dbhelper.js
-	2. index.html
-	3. restaurant.html
-
-files in order to be able to run app in local server. The code
-was modified in order to run the app in GitHub pages.
-
-3. Project needs a local server to run. 
-	1. Open a bash command line window in the repository folder. 
-	2. Check if python is installed in your computer by typing `python -V` or `py -V`. If you don't have Python installed, navigate to Python's [website](https://www.python.org/) to download and install the software.
-	3. If you have Python 2.x, spin up the server with `python -m SimpleHTTPServer 8000` (or some other port, if port 8000 is already in use.) For Python 3.x, you can use `py -m http.server 8000` or `python3 -m http.server 8000`.
-
-4. When you have a server up and running, open your browser and
-visit the site: `http://localhost:8000`.
-
-5. App is currently running on Github Pages. Change comments
-in index.html, restaurant.html and dbhelper.js to run localy.
+3- With your server running, visit the site: `http://localhost:3000`
 
 ## Dependencies
 
@@ -36,6 +29,5 @@ The starter code for this project is based on the Udacity repository
 
 ### Leaflet.js and Mapbox:
 
-This repository uses[Mapbox](https://www.mapbox.com/). Mapbox is free to use, and does not require any payment information. 
-
+This repository uses [leafletjs](https://leafletjs.com/) with [Mapbox](https://www.mapbox.com/). Mapbox is free to use, and does not require any payment information. 
 
