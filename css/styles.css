@@ -41,7 +41,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   --bg-filter:#4b61b3;
   --bg-restaurant-list:#f3f3f3;
   --bg-restaurant-list-li:#fff;/* also for review list li*/
-  --bg-restaurant-list-li-a:orange; 
+  --bg-restaurant-list-li-a:orange;
   --bg-footer-1:#364784;
   --bg-restaurant-cuisine:#333;
   --bg-restaurant-address:#333;
@@ -62,7 +62,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
     --bg-restaurant-address:#fff;
     --bg-reviews-list-li:#666;
   --bg-restaurant-list-li:#cecece;/* also for review list li*/
-  --bg-restaurant-list-li-a:orange; 
+  --bg-restaurant-list-li-a:orange;
   --bg-footer-1:#040606;
   --bg-restaurant-cuisine:#333;
   --bg-restaurant-name:#f18200;/*text*/
@@ -89,7 +89,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
     #map:hover {
         opacity: 1;
     }
-    
+
 }
 #maincontent {
   background-color: var(--bg-restaurant-list);
@@ -219,7 +219,7 @@ nav h1 a {
   min-height: 248px;
   min-width: 100%;
 }
-#restaurants-list li h1 {
+#restaurants-list li h2 {
   color: var(--bg-restaurant-name);
   font-family: Arial,sans-serif;
   font-size: 14pt;
@@ -346,21 +346,21 @@ nav h1 a {
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 502px) {
 
-  
+
   #restaurant-container{
     flex-flow: column;
   }
 
   #restaurant-img {
     height: 200px;
-    width: auto;    
+    width: auto;
   }
    .inside #map-container {
     height: 300px;
     position: relative;
     width: 100%;
   }
-  
+
 }
 
 @media screen and (min-width: 503px) {
@@ -414,5 +414,3 @@ nav h1 a {
     padding: 20px 0;
   }
 }
-
-
